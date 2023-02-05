@@ -22,7 +22,7 @@ function next(x) {
   function answer(resp,id) {
     if (resp === "si") {
        url = window.location.href
-       str = url.replace("11", "12")
+       str = url.replace("14", "15")
       window.location.href = str
     } else {
       if(id=="no"){
