@@ -133,7 +133,7 @@ body {
 .comic {
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Dekko', cursive;
     padding: 1vmin;
 }
 
