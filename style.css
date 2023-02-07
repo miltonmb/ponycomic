@@ -87,8 +87,18 @@ body {
 }
 
 .tag strong {
+    position: relative;
     text-transform: uppercase;
     font-size: 3.5rem;
+    text-align: right;
+    right: 12% !important;
+}
+
+.tag #name{
+    text-align: center;
+    font-size: 1.5rem;
+    size: 200px;
+
 }
 
 
@@ -98,12 +108,12 @@ body {
     content: "";
     position: absolute;
     top: 9rem;
-    left: 2%;
-    width: 96%;
-    height: 9rem;
+    left: 0%;
+    width: 100%;
+    height: 10rem;
     background: #fff;
     /* border-radius mathing the .tag container */
-    border-radius: 0 0 30px 30px;
+    border-radius: 0 0 10px 10px;
 }
 
 
@@ -113,7 +123,7 @@ body {
     content: "Martinez Cachalote";
     position: absolute;
     top: 11.25rem;
-    left: 0;
+    right: 0%;
     width: 100%;
     text-align: center;
     font-family: "Rock Salt", cursive;
